@@ -6,7 +6,7 @@ layout = [  # Define o layout da janela utilizando uma lista de listas.
     [sg.Output(size=(40, 20), key="-OUTPUT-")],
 ]
 
-window = sg.Window("Consulta de CEP", layout)  # Cria uma janela com o título "Consulta de CEP" e o layout definido.
+window = sg.Window("Consulta de CEP ", layout)  # Cria uma janela com o título "Consulta de CEP" e o layout definido.
 
 while True:  # Inicia um loop infinito para manter a janela aberta.
     event, values = window.read()  # Lê os eventos e valores da janela e interrompe o looping aguardando uma ação.
